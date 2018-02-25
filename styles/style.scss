@@ -1,0 +1,61 @@
+// COLORS-----------
+$main-yellow: #ffe13e;
+$dark-yellow: #f4d639;
+$dark-blue: #202242;
+$white: #ffffff;
+
+// --------------------------------STYLE RESET---------------------
+* {
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1.4em;
+vertical-align: baseline;
+text-decoration: none;
+outline: 0;
+}
+
+// -------------MAIN THINGS-----------
+body{
+	font-size: 15px;
+}
+
+
+.services{
+	height: 100vh;
+	display: flex;
+}
+
+.webhost-services, .domain-services{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.webhost-services{
+	color: #ffffff;
+	background-color: #202242;
+}
+
+.webhost-services img{
+	margin-top: 20%;
+}
+
+.domain-services{
+	background-color: #ffe13e;
+}
+
+.domain-services img{
+	margin-top: 24%;
+}
+
+h3{
+	font-size: 2em;
+	margin-top: 100px;
+}
+
+.services-hidden-p{
+	display: none;
+}
