@@ -20,6 +20,15 @@
 		text-align: center;
 	}
 
+	.plans{
+		padding-left: 15px;
+	}
+
+	.plans-bttn{
+		float: left;
+		
+	}
+
 	/*.clients .clients-logos .clients-logos-img{
 		
 	}*/
@@ -100,6 +109,4 @@
 
 
 
-
-/******************************** PHONES *************************/
 

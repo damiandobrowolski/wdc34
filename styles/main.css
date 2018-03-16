@@ -280,12 +280,13 @@ h2 ~ p{
 .features-row{
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	width: 100%;
 	margin-top: 20vh;
 }
 
 .single-feature{
-	width: 20%;
+	width: 150px;
 	text-align: center;
 }
 
@@ -467,5 +468,3 @@ h2 ~ p{
 [class*="icon-"]{
 	color: #ffe13e;
 }
-
-
